@@ -1,0 +1,23 @@
+{
+  "name": "gd-generator",
+  "version": "1.0.0",
+  "description": "structure folder greatdayhr package",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "webpack --watch"
+  },
+  "bin": {
+    "greatgen": "src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^6.2.0",
+    "inquirer": "^7.3.3",
+    "webpack": "^5.6.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.2.0"
+  }
+}
