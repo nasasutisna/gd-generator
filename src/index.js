@@ -194,4 +194,5 @@ const main = function _typePage() {
     });
 }
 
+/** run main */
 main();
